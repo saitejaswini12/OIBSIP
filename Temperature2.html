@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+        <meta name="description" content="Temperature converter">
+    	<meta name="keywords" content="celsius, fahrenheit, kelvin, rankine">
+
+		<title>Temperature Converter</title>
+
+		<!-- external CSS link -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+
+	</head>
+	<body>
+		<main class="container">
+			<div id="panel">
+				<h1>Temperature Converter</h1>
+				<div>
+					<div class="inputs">
+						<h3 class="spacing">Celsius</h3>
+						<input id="celsius" value=""/>
+					</div>
+					<div class="inputs">
+						<h3 class="spacing">Fahrenheit</h3>
+						<input id="fahrenheit" value=""/>
+                    </div>
+                    <br>
+					<div class="inputs">
+						<h3 class="spacing">Kelvin</h3>
+						<input id="kelvin" value=""/>
+                    </div>
+                    <div class="inputs">
+						<h3 class="spacing">Rankine</h3>
+						<input id="rankine" value=""/>
+					</div>
+				</div>
+				<div>
+					<button id="submit" class="spacing" type="submit" value="submit">Convert</button>
+					<button id="reset" class="spacing" type="reset" value="reset">Reset</button>
+				</div>
+			</div>
+        </main>
+        
+        <script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
